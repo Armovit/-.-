@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armovit - Преподаватели</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/Teachers.css">
+    <link rel="stylesheet" href="scss/Teachers.css">
+</head>
+<body>
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\ArmovitLogo.svg" alt="Armovit Logo" width="50" height="50">
+                    <span>Armovit</span>
+                  </div>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Main.html">Главная</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Courses.html" class="active">Курсы</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Teachers.html">Преподаватели</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\About.html">О нас</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Contact.html">Контакты</a></li>
+                    </ul>
+                    <div class="mobile-auth-buttons" id="mobile-auth-buttons" style="display: none;">
+                        <a class="btn btn-outline" id="mobile-login-btn" href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Login.html">Войти</a>
+                        <a class="btn btn-primary" id="mobile-register-btn" href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Register.html">Регистрация</a></button>
+                        <button class="btn btn-theme" id="mobile-theme-toggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                </nav>
+                <div class="auth-buttons">
+                    <a class="btn btn-outline" id="login-btn" href="Login.html">Войти</a>
+                    <a class="btn btn-primary" id="register-btn" href="Register.html">Регистрация</a>
+                    <button class="btn btn-theme" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Наши преподаватели</h1>
+            <p>Познакомьтесь с нашей командой опытных специалистов, которые помогут вам освоить программирование и стать профессионалом в IT-сфере</p>
+        </div>
+    </section>
+
+    <section class="instructors-section" id="instructors">
+        <div class="container">
+            <div class="section-title">
+                <h2>Эксперты своего дела</h2>
+                <p>Наши преподаватели — практикующие разработчики с многолетним опытом работы в ведущих IT-компаниях</p>
+            </div>
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5" alt="Егор Пушкин">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Егор Пушкин</h3>
+                        <span class="instructor-position">Senior Frontend Developer</span>
+                        <p class="instructor-bio">Более 8 лет опыта разработки на JavaScript. Работал в Яндекс и Mail.ru Group. Автор популярных курсов по React и Vue.js.</p>
+                        <div class="instructor-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">15</div>
+                                <div class="stat-label">Курсов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">2,500+</div>
+                                <div class="stat-label">Студентов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">4.9</div>
+                                <div class="stat-label">Рейтинг</div>
+                            </div>
+                        </div>
+                        <div class="instructor-social">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e" alt="Елена Смирнова">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Елена Смирнова</h3>
+                        <span class="instructor-position">Python Developer</span>
+                        <p class="instructor-bio">Эксперт по Python и Data Science. Опыт работы в Сбербанке и Тинькофф. Автор книги "Python для анализа данных" и многое другое.
+
+                        </p>
+                        <div class="instructor-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">12</div>
+                                <div class="stat-label">Курсов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">1,800+</div>
+                                <div class="stat-label">Студентов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">4.8</div>
+                                <div class="stat-label">Рейтинг</div>
+                            </div>
+                        </div>
+                        <div class="instructor-social">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-medium"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" alt="Андрей Верхних">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Андрей Верхних</h3>
+                        <span class="instructor-position">Backend Developer</span>
+                        <p class="instructor-bio">Специалист по Java и Spring Framework. 10+ лет опыта в разработке высоконагруженных систем. Работал в Luxoft и EPAM.</p>
+                        <div class="instructor-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">9</div>
+                                <div class="stat-label">Курсов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">1,200+</div>
+                                <div class="stat-label">Студентов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">4.7</div>
+                                <div class="stat-label">Рейтинг</div>
+                            </div>
+                        </div>
+                        <div class="instructor-social">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-stack-overflow"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956" alt="Ольга Новикова">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Ольга Новикова</h3>
+                        <span class="instructor-position">UX/UI Designer</span>
+                        <p class="instructor-bio">Дизайнер с опытом работы в Сбербанк Дизайн и Альфа-Банке. Специалист по проектированию интерфейсов и пользовательскому опыту.</p>
+                        <div class="instructor-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">7</div>
+                                <div class="stat-label">Курсов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">950+</div>
+                                <div class="stat-label">Студентов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">4.9</div>
+                                <div class="stat-label">Рейтинг</div>
+                            </div>
+                        </div>
+                        <div class="instructor-social">
+                            <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e" alt="Игорь Соколов">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Игорь Соколов</h3>
+                        <span class="instructor-position">DevOps Engineer</span>
+                        <p class="instructor-bio">Эксперт по DevOps практикам и инфраструктуре. Опыт работы с AWS, Docker, Kubernetes. Работал в Avito и Ozon.</p>
+                        <div class="instructor-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">5</div>
+                                <div class="stat-label">Курсов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">800+</div>
+                                <div class="stat-label">Студентов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">4.8</div>
+                                <div class="stat-label">Рейтинг</div>
+                            </div>
+                        </div>
+                        <div class="instructor-social">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="Анна Иванова">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Анна Иванова</h3>
+                        <span class="instructor-position">Mobile Developer</span>
+                        <p class="instructor-bio">Разработчик мобильных приложений для iOS и Android. Опыт работы в VK и Яндекс. Автор нескольких популярных приложений.</p>
+                        <div class="instructor-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">8</div>
+                                <div class="stat-label">Курсов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">1,100+</div>
+                                <div class="stat-label">Студентов</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">4.7</div>
+                                <div class="stat-label">Рейтинг</div>
+                            </div>
+                        </div>
+                        <div class="instructor-social">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-app-store-ios"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-google-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h2>Armovit</h2>
+                    </div>
+                    <div class="footer-links">
+                        <ul class="horizontal-menu">
+                            <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Main.html">Главная</a></li>
+                            <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Courses.html" class="active">Курсы</a></li>
+                            <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Teachers.html">Преподаватели</a></li>
+                            <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\About.html">О нас</a></li>
+                            <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Contact.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Armovit. Все права защищены.</p>
+                    <div class="social-icons">
+                        <a href="https://vk.com" target="_blank"><i class="fab fa-vk"></i></a>
+                        <a href="https://t.me" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/Teachers.js"></script>
+</body>
+</html> 

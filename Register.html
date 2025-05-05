@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armovit - Регистрация</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/Register.css">
+    <link rel="stylesheet" href="scss/Register.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\ArmovitLogo.svg" alt="Armovit Logo" width="50" height="50">
+                    <span>Armovit</span>
+                  </div>
+                <button class="mobile-menu-btn" id="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Main.html">Главная</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Courses.html" class="active">Курсы</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Teachers.html">Преподаватели</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\About.html">О нас</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="btn btn-theme" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="registration-section">
+        <div class="container">
+            <div class="registration-container">
+                <div class="registration-image">
+                    <div>
+                        <h2>Добро пожаловать в Armovit</h2>
+                        <p>Присоединяйтесь к нашему сообществу и начните свой путь в мир программирования</p>
+                    </div>
+                </div>
+                <div class="registration-form">
+                    <div class="form-title">
+                        <h2>Создайте аккаунт</h2>
+                        <p>Заполните форму ниже для регистрации</p>
+                    </div>
+                    <form id="registration-form">
+                        <div class="form-group">
+                            <label for="fullname">Полное имя</label>
+                            <input type="text" id="fullname" class="form-control" placeholder="Введите ваше полное имя" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Введите ваш email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Пароль</label>
+                            <input type="password" id="password" class="form-control" placeholder="Создайте пароль" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Подтвердите пароль</label>
+                            <input type="password" id="confirm-password" class="form-control" placeholder="Подтвердите пароль" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+                    </form>
+                    <div class="form-footer">
+                        <p>Уже есть аккаунт?<a href="login.html"> Войти</a></p>
+                    </div>
+                    <div class="social-login">
+                        <p>Или зарегистрируйтесь через</p>
+                        <div class="social-buttons">
+                            <a href="#" class="social-btn google"><i class="fab fa-google"></i></a>
+                            <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-btn vk"><i class="fab fa-vk"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Armovit</h2>
+                </div>
+                <div class="footer-links">
+                    <ul class="horizontal-menu">
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Main.html">Главная</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Courses.html" class="active">Курсы</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Teachers.html">Преподаватели</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\About.html">О нас</a></li>
+                        <li><a href="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\Contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Armovit. Все права защищены.</p>
+                <div class="social-icons">
+                    <a href="https://vk.com" target="_blank"><i class="fab fa-vk"></i></a>
+                    <a href="https://t.me" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/Register.js"></script>
+
+</body>
+</html>

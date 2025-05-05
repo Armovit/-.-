@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <course id="1" category="web" level="beginner" price="3990" rating="4.5" date="2023-05-01">
+        <image>https://images.unsplash.com/photo-1547658719-da2b51169166</image>
+        <title>JavaScript для начинающих</title>
+        <tags>
+            <tag>Веб-разработка</tag>
+            <tag level="beginner">Начинающий</tag>
+        </tags>
+        <description>Изучите основы JavaScript с нуля и создайте свои первые интерактивные веб-приложения. Курс подходит для тех, кто только начинает свой путь в программировании.</description>
+        <meta>
+            <duration>20 часов</duration>
+            <updated>01.05.2025</updated>
+        </meta>
+        <reviews count="120">4.5</reviews>
+        <price old="159.90 BYN" current="99.90 BYN" discount="-33%"/>
+    </course>
+    <course id="2" category="data" level="intermediate" price="7990" rating="4.8" date="2023-06-15">
+        <image>https://images.unsplash.com/photo-1517694712202-14dd9538aa97</image>
+        <title>Python для анализа данных</title>
+        <tags>
+            <tag>Анализ данных</tag>
+            <tag level="intermediate">Средний</tag>
+        </tags>
+        <description>Освойте Python и библиотеки для анализа данных: Pandas, NumPy, Matplotlib. Научитесь обрабатывать и визуализировать данные для принятия решений.</description>
+        <meta>
+            <duration>30 часов</duration>
+            <updated>15.06.2025</updated>
+        </meta>
+        <reviews count="210">4.8</reviews>
+        <price old="249.90 BYN" current="199.90 BYN" discount="-20%"/>
+    </course>
+    <course id="3" category="web" level="advanced" price="12990" rating="4.7" date="2023-07-10">
+        <image>https://images.unsplash.com/photo-1633356122544-f134324a6cee</image>
+        <title>React.js: продвинутый уровень</title>
+        <tags>
+            <tag>Веб-разработка</tag>
+            <tag level="advanced">Продвинутый</tag>
+        </tags>
+        <description>Углубленное изучение React.js, Redux, хуков и паттернов проектирования. Создайте сложные одностраничные приложения с оптимальной производительностью.</description>
+        <meta>
+            <duration>40 часов</duration>
+            <updated>10.07.2025</updated>
+        </meta>
+        <reviews count="180">4.7</reviews>
+        <price current="329.90 BYN"/>
+    </course>
+    <course id="4" category="mobile" level="intermediate" price="9990" rating="4.6" date="2023-04-20">
+        <image>https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb</image>
+        <title>Swift для iOS разработки</title>
+        <tags>
+            <tag>Мобильная разработка</tag>
+            <tag level="intermediate">Средний</tag>
+        </tags>
+        <description>Изучите язык Swift и фреймворк UIKit для создания нативных iOS-приложений. Разработайте собственное приложение для App Store.</description>
+        <meta>
+            <duration>35 часов</duration>
+            <updated>20.04.2025</updated>
+        </meta>
+        <reviews count="150">4.6</reviews>
+        <price old="329.90 BYN" current="249.90 BYN" discount="-23%"/>
+    </course>
+    <course id="5" category="ai" level="advanced" price="14990" rating="4.9" date="2023-08-05">
+        <image>https://images.unsplash.com/photo-1620712943543-bcc4688e7485</image>
+        <title>Машинное обучение на Python</title>
+        <tags>
+            <tag>Искусственный интеллект</tag>
+            <tag level="advanced">Продвинутый</tag>
+        </tags>
+        <description>Глубокое погружение в алгоритмы машинного обучения с использованием scikit-learn, TensorFlow и PyTorch. Создайте собственные модели для решения реальных задач.</description>
+        <meta>
+            <duration>50 часов</duration>
+            <updated>05.08.2025</updated>
+        </meta>
+        <reviews count="230">4.9</reviews>
+        <price current="379.90 BYN"/>
+    </course>
+    <course id="6" category="game" level="beginner" price="4990" rating="4.4" date="2023-03-15">
+        <image>https://images.unsplash.com/photo-1556438064-2d7646166914</image>
+        <title>Unity для начинающих</title>
+        <tags>
+            <tag>Разработка игр</tag>
+            <tag level="beginner">Начинающий</tag>
+        </tags>
+        <description>Освойте основы разработки игр на движке Unity. Создайте свою первую 2D-игру с нуля и опубликуйте её на игровых платформах.</description>
+        <meta>
+            <duration>25 часов</duration>
+            <updated>15.03.2025</updated>
+        </meta>
+        <reviews count="95">4.4</reviews>
+        <price old="179.90 BYN" current="124.90 BYN" discount="-29%"/>
+    </course>
+    <course id="7" category="web" level="intermediate" price="8990" rating="4.7" date="2023-07-25">
+        <image>https://images.unsplash.com/photo-1555066931-4365d14bab8c</image>
+        <title>Node.js и Express</title>
+        <tags>
+            <tag>Веб-разработка</tag>
+            <tag level="intermediate">Средний</tag>
+        </tags>
+        <description>Изучите серверную разработку на JavaScript с использованием Node.js и Express. Создайте полноценный REST API и интегрируйте его с фронтендом.</description>
+        <meta>
+            <duration>32 часа</duration>
+            <updated>25.07.2025</updated>
+        </meta>
+        <reviews count="175">4.7</reviews>
+        <price old="279.90 BYN" current="224.90 BYN" discount="-18%"/>
+    </course>
+    <course id="8" category="mobile" level="intermediate" price="9490" rating="4.5" date="2023-05-30">
+        <image>https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb</image>
+        <title>Kotlin для Android разработки</title>
+        <tags>
+            <tag>Мобильная разработка</tag>
+            <tag level="intermediate">Средний</tag>
+        </tags>
+        <description>Изучите язык Kotlin и создайте современные Android-приложения. Освойте архитектурные паттерны и лучшие практики мобильной разработки.</description>
+        <meta>
+            <duration>38 часов</duration>
+            <updated>30.05.2025</updated>
+        </meta>
+        <reviews count="140">4.5</reviews>
+        <price old="299.90 BYN" current="239.90 BYN" discount="-21%"/>
+    </course>
+    <course id="9" category="data" level="advanced" price="13990" rating="4.8" date="2023-08-20">
+        <image>https://images.unsplash.com/photo-1551288049-bebda4e38f71</image>
+        <title>Big Data с Apache Spark</title>
+        <tags>
+            <tag>Анализ данных</tag>
+            <tag level="advanced">Продвинутый</tag>
+        </tags>
+        <description>Научитесь обрабатывать большие объемы данных с помощью Apache Spark. Освойте распределенные вычисления и потоковую обработку данных.</description>
+        <meta>
+            <duration>45 часов</duration>
+            <updated>20.08.2025</updated>
+        </meta>
+        <reviews count="190">4.8</reviews>
+        <price current="349.90 BYN"/>
+    </course>
+</courses>

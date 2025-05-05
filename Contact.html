@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armovit - Контакты</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/Contact.css"> 
+    <link rel="stylesheet" href="scss/Contact2.css"> 
+<body>
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <div class="decorative-circle decorative-circle-1"></div>
+    <div class="decorative-circle decorative-circle-2"></div>
+    <div class="wave"></div>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="D:\БГТУ\1 Курс\2 семестр\КЯР\Finaly курсовой проект\ArmovitLogo.svg" alt="Armovit Logo" width="50" height="50">
+                    <span>Armovit</span>
+                  </div>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="Main.html">Главная</a></li>
+                        <li><a href="Courses.html" class="active">Курсы</a></li>
+                        <li><a href="Teachers.html">Преподаватели</a></li>
+                        <li><a href="About.html">О нас</a></li>
+                        <li><a href="Contact.html">Контакты</a></li>
+                    </ul>
+                    <div class="mobile-auth-buttons" id="mobile-auth-buttons" style="display: none; flex-direction: column; gap: 1rem; padding: 1rem 2rem; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 1rem;">
+                        <a href="login.html" class="btn btn-outline" id="mobile-login-btn">Войти</a>
+                        <a href="register.html" class="btn btn-primary" id="mobile-register-btn">Регистрация</a>
+                        <button class="btn btn-theme" id="mobile-theme-toggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                </nav>
+                <div id="menu-overlay" class="menu-overlay"></div>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn btn-outline" id="login-btn">Войти</a>
+                    <a href="register.html" class="btn btn-primary" id="register-btn">Регистрация</a>
+                    <button class="btn btn-theme" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1>Свяжитесь с нами</h1>
+                <p>Мы всегда готовы ответить на ваши вопросы и помочь вам начать обучение программированию</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Наши контакты</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Адрес</h4>
+                            <p>г. Минск, ул. Белорусская, д. 19, офис 314</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Телефон</h4>
+                            <p><a href="tel:+375291234567">+375 (29) 123-45-67</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@armort.ru">info@armort.ru</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Время работы</h4>
+                            <p>Пн-Пт: 9:00 - 18:00</p>
+                            <p>Сб-Вс: Выходной</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Напишите нам</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Ваше имя</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Телефон</label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Тема</label>
+                            <select id="subject" class="form-control" required>
+                                <option value="">Выберите тему</option>
+                                <option value="course">Вопрос о курсах</option>
+                                <option value="payment">Вопрос об оплате</option>
+                                <option value="technical">Техническая поддержка</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Сообщение</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <div class="form-group form-checkbox">
+                            <input type="checkbox" id="privacy" required>
+                            <label for="privacy">Я согласен с <a href="privacy.html">политикой конфиденциальности</a></label>
+                        </div>
+                        <button type="submit" class="btn-submit">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="map-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Как нас найти</h2>
+                <p>Мы находимся в центре Минска, ул. Белорусская 19</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.1124668646414!2d27.5476!3d53.9045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0YPQuy4g0JHQtdC70L7RgNGD0YHRgdC60LDRjyAxOSwg0JzQuNC90YHQuiwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sru!4v1635000000000!5m2!1sru!2sru" 
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+</main>
+    
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Armovit</h2>
+                </div>
+                <div class="footer-links">
+                    <ul class="horizontal-menu">
+                        <li><a href="Main.html">Главная</a></li>
+                        <li><a href="Courses.html" class="active">Курсы</a></li>
+                        <li><a href="Teachers.html">Преподаватели</a></li>
+                        <li><a href="About.html">О нас</a></li>
+                        <li><a href="Contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Armovitt. Все права защищены.</p>
+                <div class="social-icons">
+                    <a href="https://vk.com" target="_blank"><i class="fab fa-vk"></i></a>
+                    <a href="https://t.me" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/Courses.js"></script>
+</body>
+</html> 
